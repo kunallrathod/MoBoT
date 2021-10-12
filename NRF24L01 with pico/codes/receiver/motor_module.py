@@ -76,8 +76,8 @@ def stop():
     M2b.value(0)
 
 
-    M3a.value(0)
+    M3a.value(1)
     M3b.value(0)
 
-    M4a.value(0)
-    M4b.value(0)
+    M4a.value(1)
+    M4b.value(1)
