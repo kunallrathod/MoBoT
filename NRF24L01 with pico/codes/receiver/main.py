@@ -16,6 +16,7 @@ nrf = NRF24L01(SPI(0), csn, ce, payload_size=4)
 nrf.open_rx_pipe(1, pipeline)
 nrf.reg_write(0x01, 0b11111000)
 nrf.start_listening()
+print("hehe boii")
 while True:
     buf=nrf.recv()
     got=struct.unpack("i", buf)[0]
