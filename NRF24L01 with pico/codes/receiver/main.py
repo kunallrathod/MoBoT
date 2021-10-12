@@ -5,6 +5,7 @@ import struct
 import utime
 from nrf24l01 import NRF24L01
 import motor_module as motor 
+import math
 
 csn = Pin(15, mode=Pin.OUT, value=1) 
 ce  = Pin(14, mode=Pin.OUT, value=0)
